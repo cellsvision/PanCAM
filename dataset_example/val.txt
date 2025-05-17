@@ -1,0 +1,4 @@
+wsi_img_5.tiff
+wsi_img_6.tiff
+wsi_img_7.tiff
+wsi_img_8.tiff
