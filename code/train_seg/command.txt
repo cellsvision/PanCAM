@@ -1,0 +1,1000 @@
+   40  ls
+   41  df -lh
+   42  ls -lh /tmp/
+   43  du -sh /tmp/
+   44  sudo du -sh /tmp/
+   45  ls
+   46  cd ~
+   47  ls
+   48  cd /
+   49  ls
+   50  du -sh *
+   51  sudo du -sh *
+   52  df -lh
+   53  cd /home/
+   54  du -sh *
+   55  sudo du -sh *
+   56  cd /home/linzhen/
+   57  du -sh *
+   58  cd /home/datasets/
+   59  ls
+   60  du -sh
+   61  du -sh *
+   62  cd ~
+   63  ls
+   64  cd diagnosis_data/
+   65  ls
+   66  du -sh
+   67  du -sh *
+   68  cd backup/
+   69  ls
+   70  cd hisl/
+   71  ls
+   72  cd pdata_check_20200426/
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd ..
+   77  ls
+   78  cd ..
+   79  sl
+   80  ls
+   81  rm -rf backup/
+   82  sudo rm -rf backup/
+   83  ls
+   84  df -lh
+   85  cd ~
+   86  ls
+   87  cd project/
+   88  ls
+   89  cd dev_code/
+   90  ls
+   91  cd breast_histology_r/
+   92  ls
+   93  cd InferModule/
+   94  ls
+   95  du -sh *
+   96  cd ..
+   97  ls
+   98  cd ..
+   99  ls
+  100  cd ..
+  101  ls
+  102  du -sh *
+  103  cd ..
+  104  ls
+  105  du -sh *
+  106  cd project/
+  107  ls
+  108  du -sh &
+  109  du -sh &*
+  110  du -sh *
+  111  df -lh
+  112  ls
+  113  cd dev_code
+  114  ls
+  115  cd breast_histology_r/
+  116  ls
+  117  cd InferModule/
+  118  ls
+  119  screen -L python main.py 
+  120  ls
+  121  ls screenlog.0 
+  122  ls -lh screenlog.0 
+  123  tailf screenlog.0 
+  124  screen -r 
+  125  top
+  126  screen -L python main.py 
+  127  tailf screenlog.0 
+  128  screen -r
+  129  ls
+  130  sudo reboot 
+  131  s_20220104/
+  132  ls
+  133  cp epoch_12.pth ~/project/dev_code/infercervixtf/models_zoo/pt/fcos_resnest50_20220107/.
+  134  cd ~/project/dev_code/infercervixtf/
+  135  ls
+  136  vim config.py 
+  137  vim main.py 
+  138  source ~/virtual_envs/pytorch/bin/activate
+  139  screen -L python3 main.py 
+  140  tailf screenlog.0 
+  141  pip list
+  142  python main.py 
+  143  vim config.py 
+  144  python main.py 
+  145  screen -L python main.py 
+  146  tailf screenlog.0 
+  147  ls
+  148  screen
+  149  ls
+  150  tailf screenlog.0 
+  151  ls /datasets/add_test_0107_pkl
+  152  ls /datasets/add_extra_test_0107_pkl
+  153  ls /datasets/add_extra_test_0107_pkl -lh
+  154  screen -r
+  155  ls
+  156  rm -rf /datasets/add_test_0107_pkl
+  157  rm -rf /datasets/add_extra_test_0107_pkl
+  158  screen -r
+  159  tailf screenlog.0 
+  160  ls /datasets/add_test_0107_pkl
+  161  tailf screenlog.0 
+  162  pwd
+  163  tailf screenlog.0 
+  164  screen -r
+  165  tailf screenlog.0 
+  166  screen
+  167  screen -r
+  168  tailf screenlog.0 
+  169  screen -r
+  170  tailf screenlog.0 
+  171  vim main.py 
+  172  cd /datasets/cxl/642_pkl
+  173  ls
+  174  cd ..
+  175  ls
+  176  tar -cvf 642_pkl.tar 642_pkl/
+  177  sudo tar -cvf 642_pkl.tar 642_pkl/
+  178  ls
+  179  sudo scp 642_pkl.tar root@10.20.191.200:/var/log/cells/.
+  180  watch -n 1 nvidia-smi
+  181  cd /data
+  182  ls
+  183  cd /datasets/
+  184  ls
+  185  cd lz_dataset/
+  186  ls
+  187  cd cervix_cls_dataset/
+  188  ls
+  189  cd cervix_det_fcos_resnest_50_20210725/
+  190  ls
+  191  cd dia_data_1230_v1
+  192  ls
+  193  cd train_all_20211230/
+  194  ls
+  195  cd ..
+  196  ls
+  197  cd ..
+  198  ls
+  199  pwd
+  200  ls -lh
+  201  pwd
+  202  ls
+  203  pwd
+  204  watch -n 1 nvdia-smi
+  205  watch -n 1 nvidia-smi
+  206  ls
+  207  cd project/
+  208  las
+  209  ls
+  210  cd dev_code/
+  211  ls
+  212  cd ..
+  213  ls
+  214  cd csv_mmdetection_pre_dev/
+  215  ls
+  216  cd mmdetection-2.20.0
+  217  ls
+  218  vim run_train.sh 
+  219  cd ..
+  220  ls
+  221  cd csv_mmdetection/
+  222  ls
+  223  vim run_train.sh 
+  224  ls
+  225  nvidia-smi 
+  226  ls
+  227  cd project/
+  228  ls
+  229  source ~/virtual_envs/pytorch_pre_dev/
+  230  source ~/virtual_envs/pytorch_pre_dev/bin/activate
+  231  ls
+  232  cd dev_code/
+  233  ls
+  234  cd ..
+  235  ls
+  236  cd csv_mmdetection_pre_dev/
+  237  ls
+  238  cd csv_mmdetection/
+  239  ls
+  240  vim run_train.sh 
+  241  ls csv_configs/
+  242  vim run_train.sh 
+  243  bash run_train.sh 
+  244  vim run_train.sh 
+  245  vim csv_configs/exp_tood_20220127.py 
+  246  bash run_train.sh 
+  247  vim csv_configs/exp_tood_20220127.py 
+  248  grep -rn custom_hooks
+  249  rm screenlog.0 
+  250  ls
+  251  cd csv_configs/
+  252  grep -rn custom_hooks
+  253  vim model_config/csv_tood_r50_fpn_1x_coco.py 
+  254  vim csv_configs/exp_tood_20220127.py 
+  255  vim exp_tood_20220127.py 
+  256  vim ../configs/_base_/default_runtime.py
+  257  cd ..
+  258  bash run_train.sh 
+  259  ls
+  260  ls /home/linzhen/project/csv_mmdetection_pre_dev/csv_mmdetection/work_dirs/exp_tood_20220127
+  261  rm -rf /home/linzhen/project/csv_mmdetection_pre_dev/csv_mmdetection/work_dirs/exp_tood_20220127
+  262  vim csv_configs/exp_tood_20220127.py 
+  263  bash run_train.sh 
+  264  vim csv_configs/exp_tood_20220127.py 
+  265  grep -rn batch
+  266  ls
+  267  cd csv_configs/
+  268  gren -rn batch
+  269  grep -rn batch
+  270  grep -rn size
+  271  ls
+  272  vim exp_fcos_0725_v1.py 
+  273  vim exp_tood_20220127.py 
+  274  cd ..
+  275  bash run_train.sh 
+  276  vim csv_configs/exp_tood_20220127.py 
+  277  bash run_train.sh 
+  278  vim csv_configs/exp_tood_20220127.py 
+  279  bash run_train.sh 
+  280  sl
+  281  ls
+  282  rm -rf work_dirs/exp_tood_20220127/
+  283  screen -L bash run_train.sh 
+  284  tailf screenlog.0 
+  285  ls
+  286  cd csv_configs/
+  287  ls
+  288  cp exp_fcos_20220104.py exp_fcos_20220128.py
+  289  vim exp_fcos_20220128.py 
+  290  cd ..
+  291  vim cd csv_configs/
+  292  cd csv_configs/
+  293  vim ../configs/_base_/default_runtime.py
+  294  cd ..
+  295  ls
+  296  vim run_train.sh 
+  297  ls csv_configs/exp_fcos_20220127.py
+  298  ls csv_configs/exp_fcos_20220128.py
+  299  vim run_train.sh 
+  300  screen -L bash run_train.sh 
+  301  tailf screenlog.0 
+  302  ls /public/det_data
+  303  vim csv_configs/exp_fcos_20220128.py
+  304  screen -L bash run_train.sh 
+  305  watch -n 1 nvidia-smi
+  306  nvidia-smi 
+  307  screen -r
+  308  nvidia-smi 
+  309  cd project/
+  310  ls
+  311  cd csv_mmdetection_pre_dev/
+  312  ls
+  313  cd csv_mmdetection/
+  314  ls
+  315  tailf screenlog.0 
+  316  screen -r
+  317  vim csv_configs/exp_fcos_20220128.py
+  318  ls
+  319  rm -rf work_dirs/exp_fcos_20220128/
+  320  screen -L bash run_train.sh 
+  321  source ~/virtual_envs/pytorch_pre_dev/bin/activate
+  322  screen -L bash run_train.sh 
+  323  tailf screenlog.0 
+  324  nvidia-smi 
+  325  cd project/
+  326  ls
+  327  cd csv_mmdetection_pre_dev/
+  328  tailf sc
+  329  cd csv_mmdetection/
+  330  tail screenlog.0 
+  331  tailf screenlog.0 
+  332  nvidia-smi 
+  333  ls
+  334  cd project/
+  335  ls
+  336  cd csv_mmdetection_pre_dev/
+  337  ls
+  338  cd csv_mmdetection/
+  339  tailf screenlog.0 
+  340  ls
+  341  nvidia-smi 
+  342  cd project/
+  343  ls
+  344  cd csv_mmdetection_pre_dev/
+  345  tailf sc
+  346  ls
+  347  cd csv_mmdetection/
+  348  tailf screenlog.0 
+  349  ls
+  350  nvidia-smi 
+  351  ls
+  352  cd project/
+  353  ls
+  354  cd csv_mmdetection_pre_dev/
+  355  tailf sc
+  356  cd csv_mmdetection/
+  357  tailf screenlog.0 
+  358  cd project/
+  359  ls
+  360  cd csv_mmdetection_pre_dev/
+  361  cd csv_mmdetection/
+  362  tailf screenlog.0 
+  363  nvidia-smi 
+  364  cd /public/tmp/lk_dataset/
+  365  ls
+  366  cd ~
+  367  s
+  368  ls
+  369  mkdir tmp_dataset_csv
+  370  cd tmp_dataset_csv/
+  371  pwd
+  372  ls
+  373  vim test.csv 
+  374  ls
+  375  ls /datasets/108/V201800720L.TMAP
+  376  ls /datasets/
+  377  ls
+  378  cd project/
+  379  ls
+  380  cd dev_code/
+  381  ls
+  382  ls -lh
+  383  cd infercervixtf/
+  384  ls
+  385  vim config.py 
+  386  ls models_zoo/
+  387  ls models_zoo/pt/
+  388  vim ~/project/csv_mmdetection_pre_dev/csv_mmdetection/run_train.sh 
+  389  cp -r  models_zoo/pt/fcos_resnest50_20220107/ models_zoo/pt/fcos_resnest50_20220128
+  390  rm -rf models_zoo/pt/fcos_resnest50_20220128/epoch_*
+  391  cp ~/project/csv_mmdetection_pre_dev/csv_mmdetection/work_dirs/exp_fcos_20220128/epoch_35.pth models_zoo/pt/fcos_resnest50_20220128/.
+  392  vim config.py 
+  393  ls /datasets/Cervix
+  394  ls /datasets/Cervix/Cervical/JF_YN/202004022/C201806464_L.kfb
+  395  ls /datasets/WSI/
+  396  ls /datasets/WSI/108/
+  397  ls /datasets/Cervix/
+  398  ls /datasets/WSI/Cervix/
+  399  ls /datasets/Cervix/Cervical/JF/20200312_agc/C201805595_AGC_N.tif
+  400  ls /datasets/WSI/Cervix/Cervical/JF/20200312_agc/C201805595_AGC_N.tif
+  401  ls /datasets/WSI/108/V201800720L.TMAP
+  402  ls
+  403  vim config
+  404  vim config.py 
+  405  ls
+  406  vim main.py 
+  407  source ~/virtual_envs/pytorch/bin/activate
+  408  screen -L python main.py 
+  409  python main.py 
+  410  screen
+  411  tailf screenlog.0 
+  412  cd project/
+  413  ls
+  414  cd csv_mmdetection_pre_dev/
+  415  ls
+  416  cd csv_mmdetection/
+  417  ls
+  418  cd work_dirs/
+  419  ls
+  420  ls exp_fcos_202201
+  421  ls exp_fcos_20220128/
+  422  tensorboard --logdir exp_fcos_20220128/tf_logs/ --port 6677 --host 192.168.23.8
+  423  watch -n 1 nvidia-smi
+  424  nvidia-smi 
+  425  cd project/
+  426  ls
+  427  cd dev_code/
+  428  ls
+  429  cd infercervixtf/
+  430  tailf screenlog.0 
+  431  vim screenlog.0 
+  432  df -lh
+  433  cd /wangsong/lsil/
+  434  ls
+  435  du -sh
+  436  cd breast_hist_dataset_20210602/
+  437  ls
+  438  cd ..
+  439  ls
+  440  du -sh *
+  441  cd hevi_dataset/
+  442  lsz
+  443  ls
+  444  cd dateset_img_20211221/
+  445  ls
+  446  cd human_he_dataset_polygon/
+  447  ls
+  448  cd ..
+  449  ls
+  450  cd human_he_dataset_polygon/
+  451  ls
+  452  cd ..
+  453  ls
+  454  df -lh
+  455  cd /public/
+  456  ls
+  457  du -sh
+  458  du -sh *
+  459  cd lz_dataset/
+  460  ls
+  461  du -sh *
+  462  cd breast_hist
+  463  ls
+  464  ls -lh
+  465  du -sh *
+  466  rm -rf zs2y_breast_20211009_3d_4cls_result_cache/
+  467  ls dataset_20211018
+  468  ls dataset_20211018/images/
+  469  ls dataset_20211018/masks/
+  470  rm -rf dataset_20211018
+  471  df -lh
+  472  ls
+  473  du -sh
+  474  du -sh *
+  475  rm -rf dataset_20210923/
+  476  rm -rf dataset_20210930
+  477  rm -rf dataset_20211009
+  478  ls
+  479  df -lh
+  480  cd /public/
+  481  ls
+  482  du -sh *
+  483  cd tmp
+  484  ls
+  485  cd ..
+  486  ls
+  487  cd det_dataset_0820/
+  488  ls
+  489  du -sh
+  490  du -sh *
+  491  ls -lh
+  492  cd ..
+  493  ls
+  494  rm -rf det_dataset_0820/
+  495  df -lh
+  496  cd lz_dataset/
+  497  ls
+  498  du -sh *
+  499  ls
+  500  cd wsss_data/
+  501  ls
+  502  cd ..
+  503  ls
+  504  cd wsss_data/
+  505  ls
+  506  du -sh
+  507  du -sh *
+  508  cd results/
+  509  ls
+  510  du -sh
+  511  du -sh *
+  512  cd test/
+  513  ls
+  514  cd ..
+  515  ls
+  516  rm -rf test/
+  517  cd ..
+  518  ls
+  519  df -lh
+  520  cd ..
+  521  l
+  522  cd ..
+  523  ls
+  524  df -lh
+  525  ls
+  526  mkdir det_dataset_20220127
+  527  cd det_dataset_
+  528  ls det_dataset_0729
+  529  ls det_dataset_0729/20200729_traindata_xml/
+  530  ls det_data_20210725/
+  531  ls det_data_20210725/cropped_0724/
+  532  ls
+  533  cd det_dataset_20220127/
+  534  ls
+  535  pwd
+  536  mkdir train
+  537  ls
+  538  cd train/
+  539  ls
+  540  pwd
+  541  mkdir image
+  542  cd image/
+  543  ls /public/det_data_20210725/cropped_0724/train/
+  544  ls
+  545  cd ..
+  546  ls
+  547  mv image JPEGImages
+  548  ls
+  549  cd JPEGImages/
+  550  ls
+  551  pwd
+  552  ls
+  553  du -sh
+  554  mkdir xml
+  555  ls
+  556  mv xml ../
+  557  ls
+  558  cd ..
+  559  ls
+  560  cd xml/
+  561  ls
+  562  pwd
+  563  cd ..
+  564  ls
+  565  cd ...
+  566  ls
+  567  cd ..
+  568  ls
+  569  mkdir val
+  570  mkdir test
+  571  cd val/
+  572  ls
+  573  ls JPEGImages/
+  574  ls JPEGImages/cervix/
+  575  du -sh
+  576  ls
+  577  cd ..
+  578  ls
+  579  ls val/
+  580  ls test/
+  581  ls train/
+  582  cd ..
+  583  ls
+  584  cd det_dataset_20220127/
+  585  ls
+  586  ls /public/det_data_20210725/cropped_0724/test/
+  587  ls
+  588  pwd
+  589  ls
+  590  cd train/
+  591  lks
+  592  ls
+  593  pwd
+  594  ls
+  595  vim ImageSets/Main/train.txt 
+  596  cd ..
+  597  ls
+  598  cd test/
+  599  ls
+  600  cd ..
+  601  ls
+  602  cd val/
+  603  ls
+  604  vim ImageSets/Main/test.txt 
+  605  ls /public/det_dataset_20220127/train/
+  606  cd ..
+  607  ls
+  608  cd ~
+  609  ls
+  610  mkdir dataset_20220207
+  611  cd dataset_20220207/
+  612  ls
+  613  pwd
+  614  ls
+  615  pwd
+  616  ls
+  617  nvidia-smi 
+  618  cd ..
+  619  ls
+  620  cd dataset_20220207/
+  621  ls
+  622  cd val/
+  623  ls
+  624  cd ..
+  625  ls
+  626  cd test/
+  627  ls
+  628  pwd
+  629  ls
+  630  cd ..
+  631  ls
+  632  cd val/
+  633  ls
+  634  ls -lh |wc -l
+  635  ls
+  636  cd ..
+  637  ls
+  638  cd test/
+  639  ls
+  640  ls -lh pos |wc -lh
+  641  ls -lh pos |wc -l
+  642  ls -lh test_domain |wc -l
+  643  ls
+  644  mkdir test_all
+  645  ls
+  646  cp -r append_2022/* test_all/.
+  647  cp -r pos/* test_all/.
+  648  cp -r test_domain/wf/* test_all/.
+  649  ls
+  650  cd test_all/
+  651  ls
+  652  pwd
+  653  ls -lh |wc -l
+  654  ls
+  655  cd ..
+  656  ls
+  657  ls -lh test_all/ > test_files_list_20220207.csv
+  658  ls
+  659  pwd
+  660  screen -r
+  661  cd ~
+  662  ls
+  663  cd project/
+  664  ls
+  665  cd dev_code/
+  666  ls
+  667  cd infercervixtf/
+  668  ls
+  669  vim config
+  670  vim config.py 
+  671  screen -r
+  672  ls
+  673  vim config.py 
+  674  ls /datasets/test_0128_pkl
+  675  vim config.py 
+  676  ls "/datasets/test_extra_0128_pkl"
+  677  ls
+  678  screen -r
+  679  ls
+  680  screen -r
+  681  ls
+  682  vim val_dataset_path_20220204.csv 
+  683  screen -r
+  684  watch -n 1 nvidia-smi
+  685  ls
+  686  source ~/virtual_envs/pytorch/bin/activate
+  687  ls
+  688  cd project/
+  689  ls
+  690  cd dev_code/
+  691  ;ls
+  692  ls
+  693  cd breast_histology_r/
+  694  ls
+  695  cd InferModule/
+  696  ls
+  697  df -lh
+  698  ls
+  699  screen -L python main.py 
+  700  tailf screenlog.0 
+  701  screen -r
+  702  ls
+  703  ls /datasets/
+  704  df -lh
+  705  screen -L python main.py 
+  706  tailf screenlog.0 
+  707  ls /datasets/cloudfs/
+  708  screen -L python main.py 
+  709  tailf screenlog.0 
+  710  vim screenlog.0 
+  711  screen -r
+  712  screen -L python main.py 
+  713  tailf screenlog.0 
+  714  screen -L python main.py 
+  715  tailf screenlog.0 
+  716  vim screenlog.0 
+  717  tailf screenlog.0 
+  718  vim screenlog.0 
+  719  tailf screenlog.0 
+  720  screen -r
+  721  screen -L python main.py 
+  722  tailf screenlog.0 
+  723  screen -r
+  724  screen -L python main.py 
+  725  tailf screenlog.0 
+  726  screen -r
+  727  screen -L python main.py 
+  728  tailf screenlog.0 
+  729  screen -r
+  730  df -lh
+  731  screen -L python main.py 
+  732  tailf screenlog.0 
+  733  cd ..
+  734  ls
+  735  cd tools/
+  736  python3 merge_image_v3.py 
+  737  rm -rf /public/lz_dataset/breast_hist/zs2y_breast_20220114_3d_3cls_result_cache_*
+  738  python3 merge_image_v3.py 
+  739  python get_valid_area_mask.py 
+  740  ls
+  741  python update_valid_area.py 
+  742  ls /public/lz_dataset/breast_hist/zs2y_breast_20220114_3d_3cls_result_cache
+  743  ls /public/lz_dataset/breast_hist/zs2y_breast_20220114_3d_3cls_result_cache/240565_240635_.mrxs/
+  744  python update_valid_area.py 
+  745  ls /public/lz_dataset/breast_hist/zs2y_breast_20220114_3d_4cls_result_cache
+  746  ls /public/lz_dataset/breast_hist/zs2y_breast_20220114_3d_4cls_result_cache/240565_240635_.mrxs/
+  747  ls
+  748  cd ..
+  749  ls
+  750  cd InferModule/
+  751  ls
+  752  rm -rf zs2y_breast_20220114_3d_3cls_pkl/
+  753  rm -rf /public/lz_dataset/breast_hist/zs2y_breast_20220114_3d_3cls_result_cache
+  754  screen -L python main.py 
+  755  nvidia-smi 
+  756  tailf screenlog.0 
+  757  rm -rf /public/lz_dataset/breast_hist/zs2y_breast_20220114_3d_4cls_result_cache
+  758  rm -rf zs2y_breast_20220114_3d_4cls_pkl/
+  759  screen -L python main.py 
+  760  tailf screenlog.0 
+  761  screen -r
+  762  screen -L python main.py 
+  763  tailf screenlog.0 
+  764  screen -L python main.py 
+  765  tailf screenlog.0 
+  766  screen -r
+  767  screen -r 41697
+  768  screen -r
+  769  tailf screenlog.0 
+  770  vim screenlog.0 
+  771  screen -r
+  772  ls
+  773  rm -rf zs2y_breast_20220114_3d_4cls_pkl/3718039_373642.mrxs
+  774  screen -L python main.py 
+  775  tailf screenlog.0 
+  776  rm -rf /public/lz_dataset/breast_hist/zs2y_breast_20220114_3d_4cls_result_cache_*
+  777  cd ..
+  778  ls
+  779  cd tools/
+  780  python merge_image_v3.py 
+  781  python update_valid_area.py 
+  782  nvidia-smi 
+  783  top
+  784  ls
+  785  cd /datasets/
+  786  ls
+  787  cd cervix_det_fcos_resnest_50_20210725_feature_pkl/
+  788  ls
+  789  cd ..
+  790  ls
+  791  cd /datasets/add_test_0107_pkl
+  792  ls
+  793  cd ~
+  794  ls
+  795  cd /datasets/
+  796  ls
+  797  nvidia-smi 
+  798  ls
+  799  cd pr
+  800  ls
+  801  cd WSI/
+  802  ls
+  803  df -lh
+  804  cd ~
+  805  ls
+  806  df -lh
+  807  cd /datasets/
+  808  ls
+  809  nvidia-smi 
+  810  ls
+  811  cd WSI/
+  812  ls
+  813  nvidia-smi 
+  814  ls
+  815  cd properties_cache.py 
+  816  ls
+  817  cd ~
+  818  ls
+  819  cd project/
+  820  ls
+  821  mkdir bladder_hist
+  822  cd b
+  823  cd bladder_hist/
+  824  ls
+  825  touch README.md
+  826  git init
+  827  git add README.md
+  828  git commit -m "first commit"
+  829  git remote add origin https://git.cellsvision.com:8343/linzhen/bladder_hist.git
+  830  git push -u origin master
+  831  ls
+  832  mkdir code
+  833  ls
+  834  cd code/
+  835  ls
+  836  cd ..
+  837  ls
+  838  add code/
+  839  git add code/
+  840  git push
+  841  ls
+  842  cd code/
+  843  ls
+  844  cp -r ~/project/dev_code/breast_histology_r/segmentation_models.pytorch-master .
+  845  ls
+  846  cd segmentation_models.pytorch-master/
+  847  ls
+  848  rm -rf models/train_4_cls_2048_o_0_2021020*
+  849  ls
+  850  rm -rf nni_config_files/
+  851  ls
+  852  rm -rf __pycache__/
+  853  ls
+  854  rm -rf screenlog.0 
+  855  ls
+  856  rm -rf tf_log/
+  857  ;s
+  858  ls
+  859  ls csv_output/
+  860  rm -rf csv_output/
+  861  ls
+  862  cd ..
+  863  ls
+  864  cd ..
+  865  ls
+  866  cd code/
+  867  git checkout
+  868  ls
+  869  git add segmentation_models.pytorch-master/
+  870  git checkout
+  871  git commit
+  872  git push
+  873  ls
+  874  cd ..
+  875  ls
+  876  git add .gitignore 
+  877  git commit
+  878  git push
+  879  git commit
+  880  git push
+  881  nvidia-smi 
+  882  ls
+  883  cd code/
+  884  ls
+  885  cd segmentation_models.pytorch-master/
+  886  ls
+  887  cp -r ~/project/dev_code/breast_histology_r/segmentation_models.pytorch-master/segmentation_models_pytorch/scheduler segmentation_models_pytorch/.
+  888  git commit
+  889  git push
+  890  ls
+  891  pwd
+  892  git commit
+  893  git push
+  894  df -lh
+  895  cd losses.py 
+  896  ls
+  897  cd ..
+  898  ls
+  899  cd tools/
+  900  ls
+  901  python convert_pkl_to_png.py 
+  902  git commit
+  903  git push
+  904  ls
+  905  python convert_pkl_to_png.py 
+  906  python
+  907  python3 -m pip install --upgrade pip
+  908  python3 -m pip install --upgrade Pillow
+  909  python3 -m pip install --upgrade Pillow -i https://pypi.douban.com/simple/
+  910  python convert_pkl_to_png.py 
+  911  ls
+  912  cd ..
+  913  ls
+  914  cd segmentation_models.pytorch-master/
+  915  ls
+  916  bash run_train.sh 
+  917  ls /public/lz_dataset/bladder/bladder_hist/dataset_bladder_20220122/masks/ca/N042191-19-20-2021-11-02_22_29_27.kfb/N042191-19-20-2021-11-02_22_29_27.png
+  918  ls /public/lz_dataset/bladder/bladder_hist/dataset_bladder_20220122/masks/N042191-19-20-2021-11-02_22_29_27.kfb/N042191-19-20-2021-11-02_22_29_27.kfb_00
+  919  bash run_train.sh 
+  920  ls /public/lz_dataset/bladder/bladder_hist/dataset_bladder_20220122/masks/N042191-19-20-2021-11-02_22_29_27.kfb/
+  921  bash run_train.sh 
+  922  ls /public/lz_dataset/bladder/bladder_hist/dataset_bladder_20220122/masks/N043038-7-8-2021-11-02_23_25_59.kfb/N043038-7-8-2021-11-02_23_25_59.kfb_00150421_00047755_00156320_00050993.png
+  923  bash run_train.sh 
+  924  ls
+  925  git commit
+  926  git push
+  927  bash run_train.sh 
+  928  ls
+  929  ls bladder_20220122_exp_1_log
+  930  rm -rf bladder_*
+  931  screen -L bash run_train.sh 
+  932  screen -r
+  933  ls
+  934  tailf screenlog.0 
+  935  ls
+  936  screen -L bash run_train.sh 
+  937  tailf screenlog.0 
+  938  ls
+  939  screen -r
+  940  ls
+  941  rm -rf bladder_20220122_exp_1_log
+  942  df -lh
+  943  screen -L bash run_train.sh 
+  944  tailf screenlog.0 
+  945  ls
+  946  nvidia-smi 
+  947  ls
+  948  cd ..
+  949  ls
+  950  cd ~
+  951  ls
+  952  nvidia-smi 
+  953  ls
+  954  cd project/
+  955  ls
+  956  cd dev_code/
+  957  ls
+  958  cd infercervixtf/
+  959  tailf screenlog.0 
+  960  ls
+  961  nvidia-smi 
+  962  watch -n 1 nvidia-smi
+  963  cd /datasets/WSI/Cervix/KFB/Chenjiangshi/MKJYZX/20210303/
+  964  ls -lh
+  965  cd ..
+  966  ls
+  967  cd /datasets/WSI/Cervix/UNIC/Chenjiangshi/GSSFY/2021_05_13/
+  968  ls -lh
+  969  cd /datasets/WSI/Cervix/3D/ZS8Y/yiyuanScan/20210622/
+  970  ls -lh
+  971  du -sh *
+  972  cd /public/lz_dataset/bladder/bladder_hist/dataset_bladder_20220122/images
+  973  ls
+  974  cd N025475-21-22-2021-11-02_18_24_07.kfb
+  975  ls
+  976  cd ..
+  977  ls
+  978  cd N041294-9-10-2021-11-02_22_13_09.kfb
+  979  cd ..
+  980  cd N041294-11-12-2021-11-02_22_19_07.kfb
+  981  nvidia-smi 
+  982  ls
+  983  ls ~/dataset_20220207/test/test_all |wc -l
+  984  ls ~/dataset_20220207/test/test_al
+  985  ls ~/dataset_20220207/test/test_all/
+  986  ls ~/dataset_20220207/test/test_all/ -lh |wc -l
+  987  ls /datasets/test_0128_pkl -lh |wc -l
+  988  ls
+  989  cd ~
+  990  ls
+  991  cd project/
+  992  ls
+  993  cd dev_code/
+  994  ls
+  995  cd infercervixtf/
+  996  ls
+  997  vim screenlog.0 
+  998  source ~/virtual_envs/pytorch/bin/activate
+  999  ls
+ 1000  python main.py 
+ 1001  cd project/
+ 1002  ls
+ 1003  cd bladder_hist/
+ 1004  ls
+ 1005  cd code/
+ 1006  ls
+ 1007  cd segmentation_models.pytorch-master/
+ 1008  ls
+ 1009  tailf screenlog.0 
+ 1010  screen -r
+ 1011  screen -r 15026
+ 1012  screen -r
+ 1013  screen -r 27065
+ 1014  screen -r
+ 1015  ls
+ 1016  source ~/virtual_envs/pytorch/bin/activate
+ 1017  ls
+ 1018  rm -rf bladder_20220208_exp_1_log/
+ 1019  ls
+ 1020  bash run_train.sh 
+ 1021  ls
+ 1022  rm -rf bladder_20220122_exp_1_log
+ 1023  ls
+ 1024  rm -rf bladder_20220208_exp_1_log
+ 1025  ls
+ 1026  bash run_train.sh 
+ 1027  ls
+ 1028  rm -rf bladder_20220208_exp_1_log
+ 1029  screen
+ 1030  ls
+ 1031  tailf screenlog.0 
+ 1032  screen -r
+ 1033  screen -r 18467
+ 1034  vim screenlog.0 
+ 1035  tailf screenlog.0 
+ 1036  hist
+ 1037  history
+ 1038  /mv
+ 1039  history > command.txt
