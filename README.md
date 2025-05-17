@@ -84,7 +84,7 @@ python val_roi_box_v2.py
 ```
 
 ## Citation
-[待补充引用信息]
+https://github.com/qubvel-org/segmentation_models.pytorch
+https://github.com/sail-sg/Adan
+https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup
 
-## License
-[待补充许可证信息]
