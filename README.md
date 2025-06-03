@@ -1,7 +1,9 @@
 # PanCAM
 
 ## Paper Introduction
-[content]
+Accurate detection of lymph node metastasis is crucial for precise tumour staging and treatment decisions. However, conventional pathological methods are prone to miss lymph node micrometastasis, resulting in potential underdiagnosis and suboptimal clinical outcomes. We developed a Pan-Cancer Artificial intelligence diagnostic Model (PanCAM), a general and highly sensitive tool for detecting lymph node metastasis across diverse cancers.
+
+14,110 Whole Slide Images (WSIs) from one centre (Sun Yat-sen Memorial Hospital) were used for PanCAM training and internal validation, 45,251 WSIs from 15 centres were used for retrospective external validation, and 10,141 WSIs from 9 centres were used for prospective validation. Based on DeepLabV3+ & RegNet_Y40 architecture, PanCAM was trained in pixel-level labelled WSIs of 9 common cancers, and validated in 33 types of cancer in the real-world settings. With overall sensitivity >0.98 and specificity >0.95 in external datasets, PanCAM provides malignant probability heatmaps and WSI-level classification, being able to assist pathologists in clinical practice in an interpretable way.
 
 ## Data Structure
 ### Dataset Organization
